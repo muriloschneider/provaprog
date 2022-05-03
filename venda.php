@@ -64,11 +64,11 @@ else if($procura=="pro2"){
 else if($procura=="pro1"){
     $consulta = $pdo->query("SELECT * FROM livro
                              WHERE l_preco = '$procurar%' 
-
                              ORDER BY l_preco");
 }
-else if($procura=="pro3"){
-    $consulta = $pdo->query("SELECT * FROM item_venda UNION venda UNION livro 
+
+if($procura=="pro3"){
+    $consulta = $pdo->query("SELECT * FROM item_venda 
                              WHERE iv_quantidade = '$procurar%' 
                              ORDER BY iv_quantidade");
 }
