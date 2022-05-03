@@ -38,7 +38,7 @@ document.getElementById("iv_quantidade").innerHTML = "iv_quantidade:" + 1;
 </script>
 
 <br>
-<h2 class="text-dark">item venda</h2>
+<h2>item venda</h2>
 </br>
 <form method="post">
 <h3 ><input type="radio"  name="tipo" id="tipo" value="1" <?php if ($tipo == 1) { echo "checked"; }?>>quantidade</h3><br>
