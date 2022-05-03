@@ -30,6 +30,8 @@ $procurar = isset($_POST["procurar"]) ? $_POST["procurar"] : "";
 var valor_total = parseInt(document.getElementById("valor_total").value);
 var iv_quantidade = parseInt(document.getElementById("iv_quantidade").value);
 document.getElementById("iv_quantidade").innerHTML = "iv_quantidade:" + 1;
+ 
+
 
 } 
 
